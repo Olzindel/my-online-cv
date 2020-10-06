@@ -1,0 +1,23 @@
+.navbar-retracted, .navbar-extended {
+    background-color: var(--bg-color-primary-navbar);
+    transition: width var(--transition-speed-navbar-extended) ease;
+    overflow: hidden;
+    height: 100vh;
+    position: fixed;
+}
+
+.navbar-retracted {
+    width: 5rem;
+}
+
+.navbar-extended {
+    width: 18rem;
+}
+
+.navbar-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}

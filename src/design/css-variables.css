@@ -1,0 +1,9 @@
+:root {
+    --text-color-primary: white;
+    --bg-color-primary: #37474f;
+    --bg-color-secondary: #263238;
+    --bg-color-primary-navbar: #263238;
+    --bg-color-secondary-navbar: #505e65;
+
+    --transition-speed-navbar-extended: 600ms;
+}
