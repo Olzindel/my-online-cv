@@ -1,0 +1,14 @@
+.App {
+    background-color: var(--bg-color-primary);
+    color: var(--text-color-primary);
+}
+
+.navbar NavBar {
+    position: fixed;
+}
+
+.main-content {
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
